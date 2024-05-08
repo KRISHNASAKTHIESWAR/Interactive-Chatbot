@@ -5,79 +5,111 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good morning",
+        "Good afternoon"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there! Welcome to TechSolutions. How may I assist you today?",
+        "Hello! It's great to have you here. How can TechSolutions help you?",
+        "Good morning! How can we make your day better?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Don't hesitate to reach out if you need anything else.",
+        "See you later! Have a fantastic day.",
+        "Take care! We're looking forward to assisting you again soon."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome! Let us know if there's anything else we can assist you with.", "Anytime! We're here to help."]
     },
     {
-      "tag": "items",
+      "tag": "services",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What services do you offer?",
+        "Can you help with IT support?",
+        "What kind of solutions do you provide?",
+        "Give me the contact details"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "TechSolutions offers a comprehensive suite of IT services, including network infrastructure setup, software development, cybersecurity solutions, cloud computing, and more.",
+        "Our IT support services range from troubleshooting common issues to implementing complex system upgrades and optimizations.",
+        "We specialize in providing tailored IT solutions to meet the unique needs of your business, from data management to custom software development."
+      ],
+      "questions": [
+        "Sure, could you please provide more details about the specific IT service or solution you're interested in?",
+        "Great! To better assist you, could you tell me about your current IT infrastructure and any challenges you're facing?"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "contact",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "How can I contact you?",
+        "What's your phone number?",
+        "Do you have an email address?",
+        "Give me the contact details"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "You can reach TechSolutions by phone at +1 (555) 123-4567 or via email at info@techsolutions.com.",
+        "Feel free to contact us anytime at +1 (555) 123-4567 or via email at info@techsolutions.com.",
+        "For inquiries or assistance, please contact us at +1 (555) 123-4567 or email us at info@techsolutions.com."
+      ],
+      "questions": [
+        "Of course! How can I assist you further? Are you looking to schedule a consultation or inquire about our services?",
+        "Certainly! Is there a particular department or individual you're trying to reach, or do you have a general inquiry?"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "pricing",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How much do your services cost?",
+        "What are your rates?",
+        "Can you provide a quote?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Our pricing is customized based on your specific requirements. Please contact our sales team for a personalized quote.",
+        "We offer competitive rates tailored to your needs. Get in touch with us to discuss your project and receive a detailed pricing estimate.",
+        "For pricing information, please reach out to our sales department. They'll be happy to provide you with a quote based on your project specifications."
+      ],
+      "questions": [
+        "Certainly! To provide you with an accurate quote, could you please provide more details about your project requirements?",
+        "Absolutely! Could you tell me more about the scope of your project and any specific features or functionalities you're looking to implement?"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "hours",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What are your business hours?",
+        "When are you open?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "TechSolutions is open Monday to Friday from 9:00 AM to 6:00 PM.",
+        "Our business hours are Monday through Friday, 9:00 AM to 6:00 PM. We're closed on weekends and major holidays."
+      ],
+      "questions": [
+        "Got it! Is there a specific time you're planning to visit our office, or do you have a general inquiry?",
+        "Sure thing! Are you looking to schedule a meeting during our regular business hours, or do you have another inquiry?"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "Do you offer emergency support?",
+        "What if I have an urgent issue?"
+      ],
+      "responses": [
+        "Yes, we provide 24/7 emergency support for critical issues. Please call our emergency hotline at +1 (555) 987-6543 for immediate assistance.",
+        "In case of an urgent issue, don't hesitate to contact our emergency support team at +1 (555) 987-6543. We're here to help you around the clock."
+      ],
+      "questions": [
+        "Understood! Could you please provide more details about the nature of the emergency or issue you're experiencing?",
+        "I see! To assist you more effectively, could you provide additional information about the urgency and impact of the issue?"
       ]
     }
   ]
