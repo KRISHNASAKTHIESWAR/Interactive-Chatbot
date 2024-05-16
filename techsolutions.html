@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='TechSolutions.css') }}">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content" id="home">
+        <div class="home">
+            <h1>Welcome to TechSolutions</h1>
+            <p>Your friendly virtual assistant. Click the chat button at the bottom right corner to start chatting with Quadbot.</p>
+        </div>
+    </div>
+
+    <!-- Chatbot Container -->
+    <div class="chat-container" id="chat-container">
+        <div id="chat-box"></div>
+        <div class="button-container">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button id="start-btn" onclick="startListening()"><i class='bx bx-microphone bx-md'></i></button>
+            <button id="send" onclick="sendMessage()"><i class='bx bx-send bx-md'></i></button>
+        </div>
+    </div>
+
+    <!-- Chatbot Button -->
+    <div class="chat-button" id="chat-button" onclick="toggleChat()">
+        <i class='bx bxs-message-square-detail bx-lg'></i>
+    </div>
+
+    <script src="{{ url_for('static', filename='techsolutions.js') }}"></script>
+</body>
+</html>
